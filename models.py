@@ -142,7 +142,7 @@ if __name__=="__main__":
 
   # Training
   # ----------------------------------------------------------------------------------------------------------------------------
-  MODELS = initialize_models
+  MODELS = initialize_models()
   accuracy_train = {}
   accuracy_test = {}
   
